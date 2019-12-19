@@ -1,0 +1,47 @@
+body{
+    background-color: #dbd3d1;
+}
+/*Formulario busqueda*/
+.form{
+    background-color: white;
+    padding: 5%;
+    margin-top: 2%;
+    width: 80%;
+    align-content: center;
+}
+#inp-buscar{
+    width: 56%;
+}
+.form input{
+    margin: 1% 5%;
+}
+.form label{
+    margin: 1% 1%;
+}
+.form .radio{
+    margin: 0% 5%;
+}
+#select{
+    width: 25%;
+}
+/*Formulario busqueda*/
+
+/*Resultado Busqueda*/
+.ordenar{
+    background-color: white;
+    margin: 2% 0%;
+    padding: 1%;
+}
+.card{
+    margin: 1% 1%;
+}
+.card p{
+    font-size: 70%;
+}
+.card .caract_dep{
+    font-size: 80%;
+}
+.caract_dep p{
+    margin: 1% 2%;
+}
+/*Resultado Busqueda*/
