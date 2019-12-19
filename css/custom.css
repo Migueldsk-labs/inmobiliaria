@@ -1,6 +1,10 @@
 body{
     background-color: #dbd3d1;
 }
+iframe{
+    width: 100%;
+    height: 538px;
+}
 /*Formulario busqueda*/
 .form{
     background-color: white;
@@ -43,5 +47,11 @@ body{
 }
 .caract_dep p{
     margin: 1% 2%;
+}
+.prop_guar{
+    background-color: white;
+    margin: 2% 0%;
+    padding: 1%;
+    width: 80%;
 }
 /*Resultado Busqueda*/
