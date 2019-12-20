@@ -12,7 +12,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#" style="border: black 1px solid; padding: 2px 5px" >LOGO</a>
+    <a class="navbar-brand" href="index.html" style="border: black 1px solid; padding: 2px 5px" >LOGO</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -20,7 +20,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Inicio</a>
+                <a class="nav-link" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Quienes Somos</a>
@@ -31,7 +31,7 @@
         </ul>
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#">Ingresar</a>
+                <a class="nav-link" href="buscador_user_log.html">Ingresar</a>
             </li>
         </ul>
     </div>
@@ -43,9 +43,9 @@
         <form action="/action_page.php">
             <div class="form-inline d-flex justify-content-center">
                 <label>Ubicacion:</label>
-                <input type="text" class="form-control"  placeholder="Busqueda" name="text">
+                <input type="text" class="form-control"  placeholder="Busqueda" name="text" style="width: 78%">
             </div>
-            <div class="form-inline d-flex justify-content-center" style="margin: 2% 0%">
+            <div class="form-inline d-flex justify-content-center" style="margin: 2% 1%">
                 <div class="radio">
                     <label>Buscar <input type="radio" class="radio" name="remember" checked></label>
                 </div>
@@ -53,24 +53,23 @@
                     <label>Buscar <input type="radio" class="radio" name="remember"></label>
                 </div>
                 <label>Tipo de propiedad:</label>
-                <select class="form-control" placeholder="" id="select">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
+                <select class="form-control" placeholder="" id="select" style="width: 43%;">
+                    <option>Tipo de propiedad</option>
+                    <option>Tipo de propiedad</option>
+                    <option>Tipo de propiedad</option>
+                    <option>Tipo de propiedad</option>
+                    <option>Tipo de propiedad</option>
                 </select>
             </div>
-            <div class="form-inline d-flex justify-content-center" style="margin: 2% 0%">
+            <div class="form-inline d-flex justify-content-center" style="margin: 1% 0%">
                 <label for="select">Precio</label>
-                <input type="text" class="form-control" placeholder="Hasta" style="margin-right: 0%">
+                <input type="text" class="form-control" placeholder="Desde" style="width: 32%;">
 
-                <input type="text" class="form-control" placeholder="Hasta">
+                <input type="text" class="form-control" placeholder="Hasta" style="width: 32%;">
                 <button type="submit" class="btn btn-default"
-                        style="margin: 0% 2%;
-                        background-color: dimgray;
+                        style=" background-color: dimgray;
                         color: white">
-                    Submit</button>
+                    Buscar</button>
             </div>
         </form>
     </div>

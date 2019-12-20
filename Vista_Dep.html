@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"/>
+    <link rel="stylesheet" href="css/custom.css">
+
+    <title>Inmoviliaria | Departamento</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#" style="border: black 1px solid; padding: 2px 5px" >LOGO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="buscador_user_log.html">Busqueda</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="guardados.html">Guardados</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="anunciate.html">Mi Propiedad</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-user"> NOMBRE APELLIDO</i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Ayuda</a>
+                    <a class="dropdown-item" href="#">Configuracion</a>
+                    <a class="dropdown-item" href="#">Hipoteca</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Cerrar Sesion</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<!--contenido-->
+<div class="container">
+    <div class="row" >
+        <div class="col-md-4 order-md-2 mt-5" style="background-color: white; height: 25%; border-radius: 5%">
+            <div class="p-3">
+                <h5 class="d-flex justify-content-between align-items-center mb-3">
+                    <span class="text-muted">Comunicate con el Anunciante</span>
+                </h5>
+                <form class="card p-2">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Nombre</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Mail</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <p>
+                        Al enviar acepta los <a href="">terminos y condiciones </a>
+                    </p>
+                    <button type="submit" class="btn btn-default align-items-center">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-8 order-md-1 mt-5">
+            <!--carrousel-->
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/card.png" class="d-block w-100" height="380" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/card.png" class="d-block w-100" height="380" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/card.png" class="d-block w-100" height="380" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <!--carrousel-->
+            <!--descripcion-->
+            <div class="d-inline-flex">
+                <p class="d-flex align-items-start">$XXX/Mes</p>
+                <p class="d-flex align-items-end">en alquiler <i class="fas fa-home"></i></p>
+            </div>
+            <p class="d-flex justify-content-start">Direccion</p>
+            <p class="d-flex justify-content-start">Barrio/Ciudad</p>
+            <div class="caract_vista_dep">
+                <h3>Caracterisitcas Generales</h3>
+                <div class="row">
+                    <div class="col-6">
+                        <p>m2 Totales</p>
+                        <p>Ambientes</p>
+                        <p>Baños</p>
+                    </div>
+                    <div class="col-6">
+                        <p>m2 Cubiertos</p>
+                        <p>Dormitorios</p>
+                        <p>Cochera</p>
+                    </div>
+                </div>
+                <iframe id="mapa_desc" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13141.760812190934!2d-58.4515826!3d-34.5677265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1576850646527!5m2!1ses-419!2sar" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+                <div class="d-flex justify-content-center m-4">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-lg">Reference</button>
+                        <button type="button" class="btn btn-lg dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center m-4">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-lg">Reference</button>
+                        <button type="button" class="btn btn-lg dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center m-4">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-lg">Reference</button>
+                        <button type="button" class="btn btn-lg dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--descripcion-->
+
+
+
+        </div>
+    </div>
+</div>
+<!--contenido-->
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
