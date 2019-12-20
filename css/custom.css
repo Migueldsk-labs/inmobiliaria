@@ -13,12 +13,8 @@ body{
     width: 60%;
     align-content: center;
 }
-.navbar-nav > li > a:hover {
+.navbar-nav a:hover {
     border-bottom: #181818 solid 2px;
-}
-.navbar-nav>li>.dropdown-menu{
-    padding-left:10px;
-    padding-right:10px;
 }
 #inp-buscar{
     width: 56%;
