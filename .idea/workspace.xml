@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7efbfef5-90ec-403e-9724-be98bc1dd26f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Vista_Dep.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anunciate.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buscador_user_log.html" beforeDir="false" afterPath="$PROJECT_DIR$/buscador_user_log.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guardados.html" beforeDir="false" afterPath="$PROJECT_DIR$/guardados.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps.html" beforeDir="false" afterPath="$PROJECT_DIR$/maps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result_busq.html" beforeDir="false" afterPath="$PROJECT_DIR$/result_busq.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +69,7 @@
       <workItem from="1576796195052" duration="9000" />
       <workItem from="1576796215800" duration="338000" />
       <workItem from="1576802212650" duration="631000" />
-      <workItem from="1576846830866" duration="16912000" />
+      <workItem from="1576846830866" duration="18538000" />
     </task>
     <servers />
   </component>
